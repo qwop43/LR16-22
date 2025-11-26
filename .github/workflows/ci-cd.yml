@@ -6,7 +6,7 @@ on:
     branches: ["main"]
 
 jobs:
-  # linter job
+  # linter jobs
   lint:
     name: Lint (black, isort, flake8)
     if: github.event.pull_request.merged == true
